@@ -1,0 +1,18 @@
+Input: Dataset with features (X) and target variable (y).
+Split Data:
+Divide dataset into training (70%) and testing (30%) sets.
+Initialize GBM Model:
+Use parameters like learning rate, number of estimators, and max depth.
+Set a random seed for reproducibility.
+Train Model:
+Iteratively add decision trees, where each tree:
+Corrects errors made by the previous trees by focusing on misclassified samples.
+Reduces loss using gradient descent.
+Make Predictions:
+Predict class labels for the test set.
+Calculate probabilities for ROC-AUC evaluation.
+Evaluate Model:
+Compute metrics: accuracy, precision, recall, F1-score, and ROC-AUC.
+Output:
+Display the evaluation metrics for analysis.
+

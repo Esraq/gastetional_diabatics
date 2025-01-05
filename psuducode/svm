@@ -1,0 +1,17 @@
+•  Input: Dataset with features (X) and target variable (y).
+•  Split Data:
+•	Divide dataset into training (70%) and testing (30%) sets.
+•  Standardize Data:
+•	Apply standard scaling to features for both training and testing sets.
+•  Hyperparameter Tuning:
+•	Define a parameter grid with values for C, kernel, and gamma.
+•	Use cross-validation (e.g., 5-fold) to find the best hyperparameters using GridSearchCV.
+•  Train the Best Model:
+•	Use the optimal hyperparameters to train an SVM classifier on the training data.
+•  Make Predictions:
+•	Predict class labels and probabilities for the test data.
+•  Evaluate the Model:
+•	Compute metrics: accuracy, precision, recall, F1-score, and ROC-AUC.
+•  Output:
+•	Display the evaluation metrics and the best hyperparameters.
+
